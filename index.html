@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="蔡嘉恩 Aaron 的數位名片與個人作品集" />
+  <title>Aaron Tsai — Digital Card</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Noto+Sans+TC:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand magnetic" href="#top" aria-label="Aaron Tsai home">AC<span>®</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#about" data-i18n="navAbout">關於</a>
+      <a href="#work" data-i18n="navWork">事蹟</a>
+      <a href="#contact" data-i18n="navContact">聯絡</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-button" id="langToggle" aria-label="Switch language">EN</button>
+      <button class="icon-button theme-button" id="themeToggle" aria-label="Toggle colour theme">
+        <span class="theme-icon">☼</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell">
+      <div class="hero-copy">
+        <p class="eyebrow reveal" data-i18n="heroEyebrow">TAIPEI · TAIWAN · EARTH</p>
+        <h1 class="hero-title" aria-label="Aaron Tsai">
+          <span class="title-line"><span class="reveal-word">AARON</span></span>
+          <span class="title-line accent"><span class="reveal-word">TSAI</span></span>
+        </h1>
+        <p class="hero-description reveal" data-i18n="heroDescription">把複雜的想法，做成讓人忍不住靠近的體驗。</p>
+        <div class="hero-cta reveal">
+          <a href="#contact" class="button button-primary magnetic"><span data-i18n="heroCta">開始對話</span><b>↗</b></a>
+          <a href="#about" class="text-link"><span data-i18n="heroMore">認識我</span> <i>↓</i></a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Abstract digital portrait of Aaron Tsai">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div>
+        <div class="portrait-card">
+          <div class="card-topline"><span>01 / PROFILE</span><span class="live-dot"></span></div>
+          <div class="portrait-figure"><div class="halo"></div><div class="head"></div><div class="neck"></div><div class="body"></div><div class="face-line one"></div><div class="face-line two"></div></div>
+          <div class="card-bottomline"><span>DESIGNING TOMORROW</span><span>2026</span></div>
+        </div>
+        <div class="float-tag tag-one">✦ HUMAN / MAKER</div>
+        <div class="float-tag tag-two">OPEN TO CREATE</div>
+      </div>
+      <div class="scroll-note"><span data-i18n="scroll">向下探索</span><i></i></div>
+    </section>
+
+    <section class="marquee" aria-label="Interests"><div class="marquee-track"><span>CREATIVE TECHNOLOGIST</span><b>✦</b><span>CURIOUS BY DEFAULT</span><b>✦</b><span>DESIGNING WITH EMPATHY</span><b>✦</b><span>CREATIVE TECHNOLOGIST</span><b>✦</b></div></section>
+
+    <section id="about" class="about section-shell">
+      <div class="section-label reveal"><span>01</span><span data-i18n="aboutLabel">關於我</span></div>
+      <div class="about-grid">
+        <h2 class="display-heading split-text" data-i18n="aboutTitle">我相信好的設計，<br>是有溫度的科技。</h2>
+        <div class="about-detail reveal">
+          <p data-i18n="aboutText">嗨，我是林予安，一位游走於策略、設計與程式之間的創意工作者。過去 6 年，我和團隊一起把模糊的問題轉化為清晰、動人的數位產品。</p>
+          <div class="facts">
+            <div><strong>06</strong><span data-i18n="factYears">年創意實戰</span></div>
+            <div><strong>28</strong><span data-i18n="factProjects">個上線專案</span></div>
+            <div><strong>∞</strong><span data-i18n="factCuriosity">份好奇心</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="interests reveal">
+        <span data-i18n="interestLabel">目前著迷於</span>
+        <div class="interest-list"><button>Generative Art</button><button>Urban Hiking</button><button>Vinyl Records</button><button>Future Food</button><button>Typography</button></div>
+      </div>
+    </section>
+
+    <section id="work" class="work section-shell">
+      <div class="section-label reveal"><span>02</span><span data-i18n="workLabel">精選事蹟</span></div>
+      <div class="work-heading"><h2 class="display-heading split-text" data-i18n="workTitle">一些做過的，<br>值得分享的事。</h2><p data-i18n="workIntro">每個專案都是一次重新提問的機會。</p></div>
+      <div class="project-list">
+        <article class="project-card project-a reveal-card"><div class="project-number">01</div><div class="project-art art-a"><span>O</span><i></i><b>O</b></div><div class="project-meta"><p>2025 / BRAND EXPERIENCE</p><h3 data-i18n="projectOne">為城市的聲音，設計一座會呼吸的電台。</h3><a href="#contact" aria-label="Explore Soundscape project">探索案例 <span>↗</span></a></div></article>
+        <article class="project-card project-b reveal-card"><div class="project-number">02</div><div class="project-art art-b"><span>00:48</span><i></i><i></i><i></i></div><div class="project-meta"><p>2024 / DIGITAL PRODUCT</p><h3 data-i18n="projectTwo">讓每一口好食物，都有一段看得見的旅程。</h3><a href="#contact" aria-label="Explore Field Notes project">探索案例 <span>↗</span></a></div></article>
+        <article class="project-card project-c reveal-card"><div class="project-number">03</div><div class="project-art art-c"><span>NOW<br>HERE</span><div></div></div><div class="project-meta"><p>2023 / CULTURAL CAMPAIGN</p><h3 data-i18n="projectThree">將三百年的老街，放進新世代的口袋裡。</h3><a href="#contact" aria-label="Explore Old Town project">探索案例 <span>↗</span></a></div></article>
+      </div>
+    </section>
+
+    <section class="quote-section section-shell"><p class="quote-mark">“</p><blockquote class="split-text" data-i18n="quote">在變動得很快的世界裡，<br>保持感受，然後創造。</blockquote><p>— AARON TSAI, NOTES TO SELF</p></section>
+
+    <section id="contact" class="contact section-shell">
+      <div class="section-label reveal"><span>03</span><span data-i18n="contactLabel">聯絡我</span></div>
+      <p class="contact-kicker reveal" data-i18n="contactKicker">下一個有趣的想法，從一封信開始。</p>
+      <a class="email-link magnetic" href="mailto:hello@aarontsai.studio">hello@<em>aarontsai</em>.studio <span>↗</span></a>
+      <div class="contact-footer reveal"><div><p data-i18n="based">BASE / TAIPEI, TW</p><p>GMT +8 · AVAILABLE FOR SELECTED PROJECTS</p></div><div class="socials"><a href="#" aria-label="Instagram">IG</a><a href="#" aria-label="LinkedIn">LI</a><a href="#" aria-label="Behance">BE</a><a href="#" aria-label="X">X</a></div></div>
+    </section>
+  </main>
+  <footer><span>© 2026 AARON TSAI</span><span>MADE WITH CURIOSITY <b>✦</b></span></footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
